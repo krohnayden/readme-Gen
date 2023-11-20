@@ -6,9 +6,10 @@
   
   ## Table of Contents
   
-  - [Installation](#j)
-  - [Usage](#j)
-  - [License](#GNU General Public License v3.0)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Questions](#questions)
   
   ## Installation
   

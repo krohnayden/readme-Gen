@@ -8,27 +8,27 @@ console.log("Enter your project details below to generate your complete ReadME "
 const questions = [
     {
         type: 'input',
-        message: 'Title',
+        message: 'What is the application title?',
         name: 'title'
     },
     {
         type: 'input',
-        message: 'Description',
+        message: 'What is application description?',
         name: 'description',
     },
     {
         type: 'input',
-        message: 'Installation',
+        message: 'How does a user install this application?',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'Usage',
+        message: 'Provide features and usage for your application?',
         name: 'usage'
     },
     {
         type: 'list',
-        message: 'License',
+        message: 'What is your license?',
         name: 'license',
         choices: [
             'Apache License 2.0',
@@ -49,17 +49,17 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How to Contribute',
+        message: 'How can users contribute to this project?',
         name: 'contributions'
     },
     {
         type: 'input',
-        message: 'Tests',
+        message: 'How can users test the application?',
         name: 'tests'
     },
     {
         type: 'input',
-        message: 'Questions?',
+        message: 'How can users contact you with questions',
         name: 'questions'
     },
     {

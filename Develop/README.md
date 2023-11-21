@@ -1,8 +1,8 @@
-# j
+# d
 
   ## Description
   
-  j
+  d
   
   ## Table of Contents
   
@@ -13,15 +13,15 @@
   
   ## Installation
   
-  j
+  d
   
   ## Usage
 
-  j
+  d
   
   ## License 
 
-  GNU General Public License v3.0
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ## How to Contribute
   

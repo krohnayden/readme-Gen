@@ -31,7 +31,7 @@ const questions = [
         message: 'What is your license?',
         name: 'license',
         choices: [
-            'Apache License 2.0',
+            'Apache_2.0',
             'GNU General Public License v3.0',
             'MIT License',
             'BSD 2-Clause Simplified License',
@@ -59,7 +59,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How can users contact you with questions',
+        message: 'How can users contact you with questions?',
         name: 'questions'
     },
     {
@@ -68,8 +68,7 @@ const questions = [
         name: 'github'
     }
 ]
-// Description, Table of Contents, Installation, Usage, 
-// License, Contributing, Tests, Questions, and GitHub Username
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
